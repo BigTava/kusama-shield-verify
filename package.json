@@ -1,0 +1,26 @@
+{
+  "name": "kusama-shield-verify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigTava/kusama-shield-verify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigTava/kusama-shield-verify/issues"
+  },
+  "homepage": "https://github.com/BigTava/kusama-shield-verify#readme",
+  "description": "",
+  "dependencies": {
+    "@parity/hardhat-polkadot": "^0.1.6"
+  },
+  "devDependencies": {
+    "solc": "0.8.28"
+  }
+}
