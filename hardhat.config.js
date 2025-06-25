@@ -7,31 +7,18 @@ module.exports = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200,
       },
-      viaIR: true,
     },
   },
-  // resolc: {
-  //   compilerSource: "npm",
-  //   settings: {
-  //     optimizer: {
-  //       enabled: true,
-  //       fallbackOz: true,
-  //     },
-  //   },
-  // },
-  // resolc: {
-  //   compilerSource: "binary",
-  //   settings: {
-  //     compilerPath:
-  //       "/Users/tiago/Projects/test-hardhat-polkadot/resolc-universal-apple-darwin",
-  //     optimizer: {
-  //       enabled: true,
-  //       fallbackOz: true,
-  //     },
-  //   },
-  // },
+  resolc: {
+    compilerSource: "npm",
+    settings: {
+      optimizer: {
+        enabled: true,
+        fallbackOz: true,
+      },
+    },
+  },
   networks: {
     hardhat: {
       polkavm: false,
