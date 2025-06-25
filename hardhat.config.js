@@ -1,3 +1,4 @@
+require("@nomicfoundation/hardhat-ethers");
 require("@parity/hardhat-polkadot");
 
 /** @type import('hardhat/config').HardhatUserConfig */
@@ -22,6 +23,13 @@ module.exports = {
   networks: {
     hardhat: {
       polkavm: false,
+    },
+    passetHub: {
+      polkavm: true,
+      url: "https://testnet-passet-hub-eth-rpc.polkadot.io",
+      accounts: [
+        "271ad9a5e1e0178acebdb572f8755aac3463d863ddfc70e32e7d5eb0b334e687",
+      ],
     },
   },
 };
